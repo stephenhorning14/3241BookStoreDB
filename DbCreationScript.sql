@@ -108,6 +108,7 @@ CREATE TABLE IF NOT EXISTS "Publisher" (
 	"Address"	TEXT NOT NULL,
 	PRIMARY KEY("Name")
 );
+
 INSERT INTO "Publisher" ("Name","Address") VALUES ('Sybex','123 Sybex Way'),
  ('McGraw-Hill Osborne Media','123 McGraw-Hill Osborne Media Way'),
  ('John Wiley & Sons','123 John Wiley & Sons Way'),
